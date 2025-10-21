@@ -4,14 +4,35 @@ body {
     margin: 0;
     font-family: Roboto, sans-serif;
     display: flex;
+    justify-content: space-between;
+}
+
+.center {
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
 }
 
+.left, .right {
+    width: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
 .header {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
 }
 
 ul {
