@@ -1,38 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
+    height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
     display: flex;
-    justify-content: space-between;
-}
-
-.center {
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
-}
-
-.left, .right {
-    width: 100px;
-    flex-grow: 0;
-    flex-shrink: 0;
-}
-
-.header {
-    background-color: #1F2937;
-    color: #F9FAF8;
-    display: flex;
-    justify-content: space-between;
-}
-
-.header-logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.header-links {
-    display: flex;
 }
 
 ul {
@@ -43,4 +18,46 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.header, .footer, .first-section {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+}
+
+/*-----------------------
+        Header
+------------------------*/
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.header-links, a {
+    display: flex;
+    color: white;
+    gap: 16px;
+}
+
+.header-links {
+    margin-right: 100px;
+}
+
+/*-----------------------
+        Footer
+------------------------*/
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    height: 50px;
 }
