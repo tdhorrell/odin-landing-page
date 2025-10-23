@@ -143,7 +143,7 @@ button {
 .cards {
     display: flex;
     justify-content: center;
-    margin: 0px 100px;
+    gap: 25px;
 }
 
 .empty-box {
@@ -155,3 +155,19 @@ button {
     border-radius: 10px;
 }
 
+.card-one, .card-two, .card-three, .card-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-description {
+    text-align: center;
+    width: 100px;
+    font-size: 10px;
+    color: gray;
+}
+
+/*-----------------------
+        Third Section
+------------------------*/
