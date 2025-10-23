@@ -26,6 +26,13 @@ a {
     display: flex;
 }
 
+button {
+    font-family: Roboto, sans-serif;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
 /*-----------------------
         Header
 ------------------------*/
@@ -61,3 +68,90 @@ a {
     align-items: center;
     height: 50px;
 }
+
+/*-----------------------
+        First Section
+------------------------*/
+
+.first-section {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.first-section-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.first-section-right {
+    flex: 1;
+    display: flex;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+
+.website-description {
+    color: #E5E7EB;
+    size: 18px;
+    margin-top: 2px;
+}
+
+.first-section button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+}
+
+.image-placeholder {
+    color: #F9FAF8;
+    background-color: darkgray;
+    padding: 75px 100px;
+}
+
+/*-----------------------
+        Second Section
+------------------------*/
+
+.second-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.random-info {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 0px 100px;
+}
+
+.empty-box {
+    width: 100px;
+    height: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
