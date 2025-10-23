@@ -88,6 +88,8 @@ button {
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .first-section-right {
@@ -96,6 +98,8 @@ button {
     margin-right: 100px;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .hero-text {
