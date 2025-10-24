@@ -16,6 +16,12 @@ Clean, accessible HTML structure
 
 Organized and well-commented CSS
 
+## Preview
+
+<p align="center">
+  <img src="./images/preview.png" alt="Landing page preview" width="600">
+</p>
+
 ## Built With
 
 HTML5 – semantic markup for structure
